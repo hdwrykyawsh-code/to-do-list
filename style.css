@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+
+
+#containar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px 34px 5px #000000;
+    position: relative;
+}
+h1{
+    font-size: large;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+}
+#input{
+    padding: 10px;
+    font-size:20px ;
+}
+#adbtn{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #eee;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li .del {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
